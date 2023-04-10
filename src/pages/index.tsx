@@ -1,19 +1,15 @@
-import Head from 'next/head';
-import tw from 'tailwind-styled-components';
+import MainLayout from '@/components/layouts/main-layout/MainLayout';
+import { NextPageWithLayout } from '@/libs/types/page';
 
-export default function Home() {
+
+const Home: NextPageWithLayout = () => {
   return (
-    <>
-      <Head>
-        <meta name="description" content="Portfolio de Tony Dugué" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Create Next App</title>
-      </Head>
-      <main>
-        <Title>Hello !</Title>
-      </main>
-    </>
+    <p>content example</p>
   );
 }
 
-const Title = tw.h1`bg-gradient-to-r from-red-500 to-blue-500`;
+export default Home;
+
+Home.getLayout = (page) => {
+  return <MainLayout>{page}</MainLayout>
+}
