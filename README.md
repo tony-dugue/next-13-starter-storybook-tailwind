@@ -50,6 +50,12 @@ Pour créer un export (export des pages en fichiers html statiques) :
 yarn export
 ```
 
+Pour formatter tous les fichiers de l'application avec Prettier :
+
+```bash
+yarn prettier
+```
+
 Pour démarrer le storybook :
 
 ```bash
