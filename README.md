@@ -1,18 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mon portfolio
 
-## Getting Started
+## Présentation du projet
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+Mon portfolio en Nextjs 13 / Typescript et le framework CSS Tailwind + Styled-components / sass pour la gestion des feuilles de style.
+
+- Projet [Next.js](https://nextjs.org/) crée avec [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+- Mise en place d'une configuration évolutive avec des outils de qualité (EsLint et Prettier), d'outils de vérification de code géré par des Git Hooks (avec Husky) et d'un engine locking (version de Node, prise en charge uniquement de Yarn).
+
+- Mise en place d'un storybook pour la documentation des composants
+
+## 🚀 Installation
+
+---
+
+- récupération du projet sur Github par HTTPS :
+
+```shell script
+$ https://github.com/tony-dugue/portfolio-tony-v3.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- installer les packages :
+
+```shell script
+$ yarn install
+```
+
+## Démarrer l'application
+
+---
+
+- Démarrer le serveur de développement :
+
+```bash
+yarn dev
+```
+
+Pour créer un dossier de production :
+
+```bash
+yarn build
+```
+
+Pour créer un export (export des pages en fichiers html statiques) :
+
+```bash
+yarn export
+```
+
+Pour démarrer le storybook :
+
+```bash
+yarn storybook
+```
+
+- Dans le terminal, accéder à l'application : [http://localhost:3000](http://localhost:3000)
+- Dans le terminal, accéder au storybook : [http://localhost:6006](http://localhost:6006)
+
+## Ressources utilisées dans le projet
+
+---
+
+### Librairies utilisées dans ce projet :
+
+CSS Framework : [Tailwind CSS](https://tailwindcss.com/) <br />
+Styled Components : [emotion/styled](https://emotion.sh/docs/introduction) <br />
+Linter : [EsLint](https://eslint.org/) <br />
+Code Formatter : [Prettier](https://prettier.io/) <br />
+Documentation des composants: [Storybook](https://storybook.js.org/) <br />
+Git Hooks: [husky](https://typicode.github.io/husky/#/) <br />
+
+### Librairies d'animation utilisées dans ce projet :
+
+[GSAP](https://greensock.com/gsap/) <br />
+[FramerMotion](https://www.framer.com/motion/) <br />
+
+## Informations complémentaires
+
+---
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
