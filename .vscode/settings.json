@@ -11,5 +11,12 @@
     "activityBar.background": "#3a3737",
     "titleBar.activeBackground": "#3a3737",
     "titleBar.activeForeground": "#F5FCF7"
+  },
+  // Tailwind
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
   }
 }
