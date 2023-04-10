@@ -1,0 +1,15 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.rulers": [88],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  // modification couleur sidebar et du header de vscode
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#3a3737",
+    "titleBar.activeBackground": "#3a3737",
+    "titleBar.activeForeground": "#F5FCF7"
+  }
+}
