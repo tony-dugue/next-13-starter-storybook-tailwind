@@ -13,13 +13,9 @@ const meta: Meta<typeof BaseTemplate> = {
 export default meta;
 type Story = StoryObj<typeof BaseTemplate>;
 
-const args = {
-  ...mockBaseTemplateProps.base,
-} as IBaseTemplate;
-
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 export const Base: Story = {
   args: {
     ...mockBaseTemplateProps.base,
-  },
+  } as IBaseTemplate,
 };
