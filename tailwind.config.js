@@ -12,6 +12,10 @@ module.exports = {
       lg: '1200px',
       xl: '1536px',
     },
+    fontFamily: {
+      brand: ['"DIN 2014"', 'sans-serif'],
+      text: ['Latinka', 'sans-serif'],
+    },
     extend: {},
   },
   plugins: [],
