@@ -1,10 +1,10 @@
-# Mon portfolio
+# Next 13 - starter with Storybook & Tailwind
 
 ## Présentation du projet
 
 ---
 
-Mon portfolio en Nextjs 13 / Typescript et le framework CSS Tailwind + Styled-components / sass pour la gestion des feuilles de style.
+Starter d'un projet en Nextjs 13 / Typescript et le framework CSS Tailwind + Styled-components / sass pour la gestion des feuilles de style.
 
 - Projet [Next.js](https://nextjs.org/) crée avec [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -19,7 +19,7 @@ Mon portfolio en Nextjs 13 / Typescript et le framework CSS Tailwind + Styled-co
 - récupération du projet sur Github par HTTPS :
 
 ```shell script
-$ https://github.com/tony-dugue/portfolio-tony-v3.git
+$ https://github.com/tony-dugue/next-13-starter-storybook-tailwind.git
 ```
 
 - installer les packages :
@@ -77,11 +77,6 @@ Linter : [EsLint](https://eslint.org/) <br />
 Code Formatter : [Prettier](https://prettier.io/) <br />
 Documentation des composants: [Storybook](https://storybook.js.org/) <br />
 Git Hooks: [husky](https://typicode.github.io/husky/#/) <br />
-
-### Librairies d'animation utilisées dans ce projet :
-
-[GSAP](https://greensock.com/gsap/) <br />
-[FramerMotion](https://www.framer.com/motion/) <br />
 
 ## Informations complémentaires
 
